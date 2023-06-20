@@ -6,6 +6,18 @@
     font-family: 'Instrument Serif', serif;
 }
 
+@media (max-width: 900px) {
+    .container{
+        margin-top: 0;
+    }
+}
+
+@media (max-width: 500px) {
+    .container{
+        margin-top: 0;
+    }
+}
+
 .total {
     font-size: 1.25rem;
     font-weight: semi-bold;
@@ -13,13 +25,13 @@
 
 @media (max-width: 900px) {
     .total{
-        font-size: 1rem;
+        font-size: 1.25rem;
     }
 }
 
 @media (max-width: 500px) {
     .total{
-        font-size: 0.75rem;
+        font-size: 0.80rem;
     }
 }
 
@@ -35,13 +47,13 @@
 
 @media (max-width: 900px) {
     .form input{
-        font-size: 1rem;
+        font-size: 1.25rem;
     }
 }
 
 @media (max-width: 500px) {
     .form input{
-        font-size: 0.75rem;
+        font-size: 0.80rem;
     }
 }
 
